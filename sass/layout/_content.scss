@@ -1,0 +1,236 @@
+.block1 {
+  padding: 20px 0;
+  font-family: $main_font_familyBold;
+  .block1__title h2 {
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+
+  .block1__title .title-sale {
+    margin-top: 0;
+    text-transform: uppercase;
+    color: #e43521;
+  }
+
+  .block1__timer {
+    margin-top: -5px;
+    text-align: center;
+  }
+  .title-right {
+    text-align: right;
+  }
+}
+.block2 {
+  padding: 40px 0 80px;
+  .main-title {
+    h2 {
+      font-size: 24px;
+      line-height: 28px;
+      margin-top: 10px;
+
+    }
+  }
+  .product-title {
+    text-align: center;
+    margin-top: 40px;
+    img {
+      width: 100%;
+    }
+  }
+  .price {
+    display: inline-block;
+    div {
+      margin-top: 30px;
+      position: relative;
+    }
+    .price-new {
+      z-index: 10;
+      margin-top: 20px;
+      .price-text {
+        span:last-child {
+          text-decoration: none;
+        }
+      }
+    }
+    .price-text {
+      font-size: 18px;
+      color: #ffffff;
+      position: absolute;
+      top:0;
+      margin-left: 20px;
+      margin-top: 16px;
+      span {
+        display: inline-block;
+      }
+      span:last-child {
+        top: -6px;
+        position: relative;
+        font-size: 30px;
+        font-family: $main_font_familyBold;
+        text-decoration: line-through;
+        margin-left: 10px;
+      }
+    }
+    .arrow {
+      position: absolute;
+      left: 55px;
+      top: 155px;
+    }
+  }
+}
+.block3 {
+  &__title {
+    h2 {
+      font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    }
+  }
+  .video__item {
+    text-align: center;
+    margin-top: 80px;
+    .video__clip {
+      margin-bottom: 30px;
+      box-shadow: 0 0 30px rgba(0,0,0,.5);
+      img  {
+        width: 100%;
+      }
+    }
+    .video__title {
+      margin-bottom: 25px;
+      font-size: 20px;
+      line-height: 26px;
+      color: $green_color;
+      font-family: $main_font_familyBold;
+    }
+    .video__text {
+      line-height: 20px;
+      font-size: 16px;
+    }
+  }
+}
+.block4 {
+  .main-title {
+    span:last-child {
+      margin-left: 30px;
+      color: #ee1b1b;
+      font-size: 50px;
+    }
+    h2 {
+      margin-top: 20px;
+      font-size: 24px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+  .products {
+    position: relative;
+    bottom: 0;
+    margin-top: 40px;
+    .product {
+      margin-bottom: 20px;
+      border: 1px solid #e9e9e9;
+      border-radius: 8px;
+      background: #ffffff;
+      padding: 30px 0;
+      text-align: center;
+      &__img {
+        margin-bottom: 10px;
+      }
+      &__descr_ihook, &__descr {
+        line-height: 24px;
+        margin-bottom: 20px;
+      }
+      .price {
+        color: $red_color;
+        font-weight: bold;
+      }
+      .btn-order {
+        font-size: 16px;
+        color: #ffffff;
+        line-height: 32px;
+        text-transform: uppercase;
+        display: inline-block;
+        background: $green_color;
+        width: 125px;
+        box-shadow: 0 3px 15px rgba(24, 192, 70, .5);
+      }
+    }
+  }
+}
+.block6 {
+  padding-top: 80px;
+  .sale__text {
+    background: url("../img/arrow2.png") right 15px no-repeat;
+    padding-top: 170px;
+    font-family: $main_font_familyBold;
+  }
+  .sale__title {
+    text-align: center;
+    margin-bottom: 15px;
+    .red-text {
+      margin-right: 10px;
+      font-size: 24px;
+      font-family: $main_font_familyBold;
+    }
+    span {
+      font-size: 20px;
+      font-family: $font_Cyrl_700;
+      font-weight: bold;
+    }
+  }
+  .sale__timer {
+    margin-bottom: 20px;
+  }
+  .sale__product {
+    position: relative;
+    img {
+      position: absolute;
+      top: 15px;
+      right: -40px;
+      width: 100%;
+      box-shadow: -5px -5px 23px rgba(0,0,0,.3);
+    }
+  }
+  .main-form {
+    background: $bg_color;
+  }
+}
+.block7 {
+  .title-block {
+    margin-bottom: 80px;
+  }
+  .review {
+    position: relative;
+    padding: 20px;
+    box-shadow: 3px 3px 15px rgba(0,0,0,.3);
+    &__like {
+      position: absolute;
+      left: 50px;
+      top: -5px;
+      box-shadow: 3px 3px 15px rgba(24, 192, 70,.5);
+    }
+    &__img {
+      position: absolute;
+      left: 80px;
+      top: -40px;
+    }
+    &__user {
+      text-align: right;
+      margin-bottom: 10px;
+      .user__name {
+        font-size: 16px;
+        font-family: $main_font_familyBold;
+        margin-bottom: 5px;
+      }
+    }
+    &__descr {
+      text-align: justify;
+    }
+  }
+}
+
+

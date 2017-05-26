@@ -1,0 +1,22 @@
+{
+  "name": "iring",
+  "authors": [
+    "Yurii <yurayurakh@mail.ru>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {},
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "jquery": "latest"
+  }
+}

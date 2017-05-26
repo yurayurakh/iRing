@@ -1,0 +1,56 @@
+.footer {
+  background: #2b2b2b;
+  padding: 30px 0;
+  &__menu {
+    a {
+      display: inline-block;
+      margin-right: 30px;
+      color: #808080;
+      margin-bottom: 10px;
+      &:first-child {
+        margin-right: 38px;
+      }
+      &:nth-child(2), &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+  &__copyright {
+    color: #ffffff;
+    text-align: center;
+    p {
+      margin: 0;
+      a {
+        color: #ffffff;
+      }
+      &:last-child {
+        border-bottom: 1px solid #ffffff;
+        display: inline-block;
+      }
+    }
+  }
+  &__call {
+    margin-top: 10px;
+    color: #ffffff;
+    .img-call {
+      margin-top: 2px;
+      text-align: right;
+      display: block;
+      img {
+        box-shadow: 3px 3px 15px rgba(24, 192, 70,.5);
+      }
+    }
+    p {
+      text-align: left;
+      font-size: 20px;
+      font-family: $main_font_familyBold;
+      margin-bottom: 2px;
+    }
+    .call-me {
+      display: inline-block;
+      text-align: left;
+      color: $green_color;
+      border-bottom: 1px dotted $green_color;
+    }
+  }
+}
