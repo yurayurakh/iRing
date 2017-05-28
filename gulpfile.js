@@ -45,7 +45,7 @@ gulp.task('uncss', function () {
         .pipe(uncss({
             html: ['app/index.html']
         }))
-        .pipe(gulp.dest('app/uncss'));
+        .pipe(gulp.dest('app/css'));
 });
 
 // Sass
