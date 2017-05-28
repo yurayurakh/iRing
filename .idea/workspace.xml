@@ -1,14 +1,435 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f08c68c1-c3d5-4322-af4b-946542ab0ea0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/uncss/style.css" afterPath="" />
+    <list default="true" id="f08c68c1-c3d5-4322-af4b-946542ab0ea0" name="Default" comment="modal popup">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/video/car.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/video/car.webm.crdownload" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/video/handle1.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/video/handle1.webm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/video/wall1.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/contact_form/contact_process.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/contact_form/defines.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/all-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js-custom/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js-custom/script-scroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js-custom/valide-form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.bin/uglifyjs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.bin/uglifyjs.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/clone-buffer/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/clone-buffer/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/clone-buffer/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/clone-buffer/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/example.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/isarray/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/isarray/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/isarray/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/isarray/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/isarray/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/isarray/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/isarray/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/isarray/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/readable-stream/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/readable-stream/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/readable-stream/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/readable-stream/GOVERNANCE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/readable-stream/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/readable-stream/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/readable-stream/duplex-browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/readable-stream/duplex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/readable-stream/lib/_stream_duplex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/readable-stream/lib/_stream_passthrough.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/readable-stream/lib/_stream_readable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/readable-stream/lib/_stream_transform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/readable-stream/lib/_stream_writable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/readable-stream/lib/internal/streams/BufferList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/readable-stream/lib/internal/streams/stream-browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/readable-stream/lib/internal/streams/stream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/readable-stream/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/readable-stream/passthrough.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/readable-stream/readable-browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/readable-stream/readable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/readable-stream/transform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/readable-stream/writable-browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/readable-stream/writable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/string_decoder/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/string_decoder/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/string_decoder/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/string_decoder/lib/string_decoder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/string_decoder/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/through2/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/through2/LICENSE.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/through2/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/through2/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/through2/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/through2/through2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cloneable-readable/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-with-sourcemaps/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-with-sourcemaps/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-with-sourcemaps/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-with-sourcemaps/node_modules/source-map/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-with-sourcemaps/node_modules/source-map/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-with-sourcemaps/node_modules/source-map/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-with-sourcemaps/node_modules/source-map/dist/source-map.debug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-with-sourcemaps/node_modules/source-map/dist/source-map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-with-sourcemaps/node_modules/source-map/dist/source-map.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-with-sourcemaps/node_modules/source-map/dist/source-map.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-with-sourcemaps/node_modules/source-map/lib/array-set.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-with-sourcemaps/node_modules/source-map/lib/base64-vlq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-with-sourcemaps/node_modules/source-map/lib/base64.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-with-sourcemaps/node_modules/source-map/lib/binary-search.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-with-sourcemaps/node_modules/source-map/lib/mapping-list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-with-sourcemaps/node_modules/source-map/lib/quick-sort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-with-sourcemaps/node_modules/source-map/lib/source-map-consumer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-with-sourcemaps/node_modules/source-map/lib/source-map-generator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-with-sourcemaps/node_modules/source-map/lib/source-node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-with-sourcemaps/node_modules/source-map/lib/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-with-sourcemaps/node_modules/source-map/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-with-sourcemaps/node_modules/source-map/source-map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/concat-with-sourcemaps/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/clone-stats/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/clone-stats/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/clone-stats/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/clone-stats/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/clone-stats/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/isarray/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/isarray/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/isarray/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/isarray/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/isarray/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/isarray/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/isarray/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/isarray/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/readable-stream/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/readable-stream/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/readable-stream/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/readable-stream/GOVERNANCE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/readable-stream/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/readable-stream/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/readable-stream/duplex-browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/readable-stream/duplex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/readable-stream/lib/_stream_duplex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/readable-stream/lib/_stream_passthrough.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/readable-stream/lib/_stream_readable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/readable-stream/lib/_stream_transform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/readable-stream/lib/_stream_writable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/readable-stream/lib/internal/streams/BufferList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/readable-stream/lib/internal/streams/stream-browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/readable-stream/lib/internal/streams/stream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/readable-stream/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/readable-stream/passthrough.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/readable-stream/readable-browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/readable-stream/readable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/readable-stream/transform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/readable-stream/writable-browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/readable-stream/writable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/replace-ext/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/replace-ext/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/replace-ext/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/replace-ext/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/string_decoder/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/string_decoder/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/string_decoder/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/string_decoder/lib/string_decoder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/string_decoder/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/through2/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/through2/LICENSE.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/through2/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/through2/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/through2/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/through2/through2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/vinyl/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/vinyl/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/vinyl/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/vinyl/lib/inspect-stream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/vinyl/lib/normalize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/node_modules/vinyl/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-concat/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/gulp-minify.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/.bin/dateformat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/.bin/dateformat.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/.bin/has-ansi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/.bin/has-ansi.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/.bin/strip-ansi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/.bin/strip-ansi.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/.bin/supports-color" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/.bin/supports-color.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/ansi-regex/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/ansi-regex/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/ansi-regex/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/ansi-styles/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/ansi-styles/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/ansi-styles/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/chalk/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/chalk/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/chalk/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/dateformat/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/dateformat/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/dateformat/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/dateformat/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/dateformat/bin/cli.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/dateformat/lib/dateformat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/dateformat/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/dateformat/test/test_dayofweek.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/dateformat/test/test_formats.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/dateformat/test/test_isoutcdatetime.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/dateformat/test/weekofyear/test_weekofyear.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/dateformat/test/weekofyear/test_weekofyear.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/gulp-util/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/gulp-util/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/gulp-util/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/gulp-util/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/gulp-util/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/gulp-util/lib/File.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/gulp-util/lib/PluginError.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/gulp-util/lib/beep.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/gulp-util/lib/buffer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/gulp-util/lib/colors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/gulp-util/lib/combine.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/gulp-util/lib/date.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/gulp-util/lib/env.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/gulp-util/lib/isBuffer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/gulp-util/lib/isNull.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/gulp-util/lib/isStream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/gulp-util/lib/linefeed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/gulp-util/lib/log.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/gulp-util/lib/noop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/gulp-util/lib/replaceExtension.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/gulp-util/lib/template.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/gulp-util/node_modules/through2/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/gulp-util/node_modules/through2/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/gulp-util/node_modules/through2/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/gulp-util/node_modules/through2/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/gulp-util/node_modules/through2/through2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/gulp-util/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/has-ansi/cli.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/has-ansi/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/has-ansi/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/has-ansi/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/lodash._reinterpolate/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/lodash._reinterpolate/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/lodash._reinterpolate/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/lodash._reinterpolate/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/lodash.defaults/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/lodash.defaults/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/lodash.defaults/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/lodash.defaults/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/lodash.escape/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/lodash.escape/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/lodash.escape/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/lodash.escape/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/lodash.keys/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/lodash.keys/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/lodash.keys/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/lodash.keys/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/lodash.template/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/lodash.template/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/lodash.template/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/lodash.template/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/lodash.templatesettings/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/lodash.templatesettings/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/lodash.templatesettings/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/lodash.templatesettings/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/minimist/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/minimist/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/minimist/example/parse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/minimist/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/minimist/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/minimist/readme.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/minimist/test/all_bool.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/minimist/test/bool.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/minimist/test/dash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/minimist/test/default_bool.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/minimist/test/dotted.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/minimist/test/long.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/minimist/test/num.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/minimist/test/parse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/minimist/test/parse_modified.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/minimist/test/short.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/minimist/test/whitespace.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/readable-stream/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/readable-stream/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/readable-stream/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/readable-stream/duplex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/readable-stream/lib/_stream_duplex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/readable-stream/lib/_stream_passthrough.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/readable-stream/lib/_stream_readable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/readable-stream/lib/_stream_transform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/readable-stream/lib/_stream_writable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/readable-stream/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/readable-stream/passthrough.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/readable-stream/readable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/readable-stream/transform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/readable-stream/writable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/strip-ansi/cli.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/strip-ansi/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/strip-ansi/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/strip-ansi/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/supports-color/cli.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/supports-color/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/supports-color/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/supports-color/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/through2/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/through2/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/through2/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/through2/node_modules/xtend/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/through2/node_modules/xtend/LICENCE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/through2/node_modules/xtend/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/through2/node_modules/xtend/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/through2/node_modules/xtend/has-keys.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/through2/node_modules/xtend/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/through2/node_modules/xtend/mutable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/through2/node_modules/xtend/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/through2/node_modules/xtend/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/through2/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/through2/through2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/vinyl/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/vinyl/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/vinyl/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/vinyl/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/vinyl/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/vinyl/lib/cloneBuffer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/vinyl/lib/inspectStream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/vinyl/lib/isBuffer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/vinyl/lib/isNull.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/vinyl/lib/isStream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/vinyl/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/vinyl/test/File.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/vinyl/test/cloneBuffer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/vinyl/test/inspectStream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/vinyl/test/isBuffer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/vinyl/test/isNull.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/vinyl/test/isStream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/xtend/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/xtend/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/xtend/LICENCE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/xtend/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/xtend/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/xtend/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/xtend/mutable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/xtend/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/node_modules/xtend/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-minify/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash._escapehtmlchar/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash._escapehtmlchar/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash._escapehtmlchar/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash._escapehtmlchar/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash._escapestringchar/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash._escapestringchar/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash._escapestringchar/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash._escapestringchar/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash._htmlescapes/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash._htmlescapes/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash._htmlescapes/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash._htmlescapes/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash._isnative/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash._isnative/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash._isnative/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash._isnative/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash._objecttypes/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash._objecttypes/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash._objecttypes/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash._objecttypes/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash._reunescapedhtml/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash._reunescapedhtml/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash._reunescapedhtml/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash._reunescapedhtml/node_modules/lodash.keys/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash._reunescapedhtml/node_modules/lodash.keys/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash._reunescapedhtml/node_modules/lodash.keys/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash._reunescapedhtml/node_modules/lodash.keys/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash._reunescapedhtml/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash._shimkeys/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash._shimkeys/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash._shimkeys/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash._shimkeys/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash.isobject/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash.isobject/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash.isobject/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash.isobject/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash.values/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash.values/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash.values/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash.values/node_modules/lodash.keys/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash.values/node_modules/lodash.keys/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash.values/node_modules/lodash.keys/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash.values/node_modules/lodash.keys/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lodash.values/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/object-keys/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/object-keys/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/object-keys/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/object-keys/foreach.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/object-keys/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/object-keys/isArguments.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/object-keys/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/object-keys/shim.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/object-keys/test/foreach.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/object-keys/test/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/object-keys/test/isArguments.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/object-keys/test/shim.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/bin/uglifyjs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/lib/ast.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/lib/compress.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/lib/minify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/lib/mozilla-ast.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/lib/output.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/lib/parse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/lib/propmangle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/lib/scope.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/lib/sourcemap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/lib/transform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/lib/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/node_modules/commander/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/node_modules/commander/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/node_modules/commander/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/node_modules/commander/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/node_modules/commander/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/node_modules/source-map/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/node_modules/source-map/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/node_modules/source-map/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/node_modules/source-map/dist/source-map.debug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/node_modules/source-map/dist/source-map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/node_modules/source-map/dist/source-map.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/node_modules/source-map/dist/source-map.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/node_modules/source-map/lib/array-set.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/node_modules/source-map/lib/base64-vlq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/node_modules/source-map/lib/base64.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/node_modules/source-map/lib/binary-search.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/node_modules/source-map/lib/mapping-list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/node_modules/source-map/lib/quick-sort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/node_modules/source-map/lib/source-map-consumer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/node_modules/source-map/lib/source-map-generator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/node_modules/source-map/lib/source-node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/node_modules/source-map/lib/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/node_modules/source-map/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/node_modules/source-map/source-map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/tools/domprops.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/tools/exports.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/tools/node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uglify-es/tools/props.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/style.css" afterPath="$PROJECT_DIR$/app/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/layout/_content.scss" afterPath="$PROJECT_DIR$/sass/layout/_content.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/layout/_footer.scss" afterPath="$PROJECT_DIR$/sass/layout/_footer.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/modules/_index.scss" afterPath="$PROJECT_DIR$/sass/modules/_index.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,10 +447,13 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="448">
-                  <caret line="516" column="20" lean-forward="false" selection-start-line="516" selection-start-column="20" selection-end-line="516" selection-end-column="20" />
+                <state relative-caret-position="224">
+                  <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
                   <folding>
+                    <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -39,19 +463,9 @@
                     <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#3;n#div#0;n#div#2;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#1;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#2;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="script-scroll.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/js-custom/script-scroll.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -59,27 +473,9 @@
           <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/gulpfile.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+                <state relative-caret-position="508">
+                  <caret line="57" column="28" lean-forward="false" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
                   <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_index.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/sass/modules/_index.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#17#667#0" expanded="false" />
-                    <element signature="e#676#722#0" expanded="false" />
-                    <element signature="e#735#896#0" expanded="false" />
-                    <element signature="e#908#948#0" expanded="false" />
-                    <element signature="e#960#981#0" expanded="false" />
-                    <element signature="e#994#1388#0" expanded="false" />
-                    <element signature="e#1403#1493#0" expanded="false" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -87,9 +483,23 @@
           <file leaf-file-name="_index.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sass/utilites/_index.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="21" />
+                <state relative-caret-position="34">
+                  <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="21" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="contact_process.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/contact_form/contact_process.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="204">
+                  <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+                  <folding>
+                    <marker date="1496001386422" expanded="true" signature="249:494" ph="..." />
+                    <marker date="1496001386422" expanded="true" signature="272:338" ph="..." />
+                    <marker date="1496001386422" expanded="true" signature="361:474" ph="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -119,13 +529,46 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="valide-form.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js-custom/valide-form.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="408">
+                  <caret line="36" column="56" lean-forward="true" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="56" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_index.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/sass/modules/_index.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="140" column="1" lean-forward="true" selection-start-line="140" selection-start-column="1" selection-end-line="140" selection-end-column="1" />
+                  <folding>
+                    <element signature="e#17#667#0" expanded="false" />
+                    <element signature="e#677#723#0" expanded="false" />
+                    <element signature="e#737#898#0" expanded="false" />
+                    <element signature="e#910#950#0" expanded="false" />
+                    <element signature="e#962#983#0" expanded="false" />
+                    <element signature="e#996#2001#0" expanded="false" />
+                    <element signature="e#2015#2041#0" expanded="false" />
+                    <element signature="e#2058#2666#0" expanded="false" />
+                    <element signature="e#2271#2476#0" expanded="false" />
+                    <element signature="e#2640#2664#0" expanded="false" />
+                    <element signature="e#2677#2805#0" expanded="false" />
+                    <element signature="e#2822#2842#0" expanded="false" />
+                    <element signature="e#2857#2947#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sass/layout/_footer.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+                <state relative-caret-position="425">
+                  <caret line="38" column="24" lean-forward="false" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
                   <folding>
-                    <element signature="e#8#1056#0" expanded="false" />
                     <element signature="e#62#313#0" expanded="false" />
                   </folding>
                 </state>
@@ -136,10 +579,25 @@
       </split-second>
     </splitter>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>$('a[href*=#]').bind(&quot;click&quot;, function(e){</find>
+      <find>butt</find>
+      <find>button</find>
+      <find>73</find>
+      <find>form-list-title</find>
+      <find>form-list-title-input</find>
     </findStrings>
+    <replaceStrings>
+      <replace>40</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -148,18 +606,29 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/sass/utilites/_index.scss" />
-        <option value="$PROJECT_DIR$/sass/layout/_footer.scss" />
         <option value="$PROJECT_DIR$/app/css/style.css" />
         <option value="$PROJECT_DIR$/app/uncss/style.css" />
-        <option value="$PROJECT_DIR$/sass/modules/_index.scss" />
         <option value="$PROJECT_DIR$/sass/layout/_content.scss" />
         <option value="$PROJECT_DIR$/config.rb" />
         <option value="$PROJECT_DIR$/js-custom/scrirpt-scroll.js" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/js-custom/script-scroll.js" />
+        <option value="$PROJECT_DIR$/js-custom/common.js" />
+        <option value="$PROJECT_DIR$/app/css/normalize.css" />
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/app/contact_form/defines.php" />
+        <option value="$PROJECT_DIR$/app/contact_form/contact_process.php" />
+        <option value="$PROJECT_DIR$/js-custom/valide-form.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/sass/layout/_footer.scss" />
+        <option value="$PROJECT_DIR$/sass/modules/_index.scss" />
       </list>
     </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <exe-path>$USER_HOME$/AppData/Roaming/npm/bower.cmd</exe-path>
+    <config-path>$PROJECT_DIR$/bower.json</config-path>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
@@ -213,7 +682,9 @@
     <option name="width" value="1382" />
     <option name="height" value="754" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -238,20 +709,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="iring" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iring" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js-custom" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -362,22 +819,41 @@
       <workItem from="1495737172288" duration="13357000" />
       <workItem from="1495958913706" duration="3798000" />
       <workItem from="1495975162590" duration="14000" />
-      <workItem from="1495975210009" duration="4969000" />
+      <workItem from="1495975210009" duration="14626000" />
     </task>
+    <task id="LOCAL-00001" summary="script-scroll">
+      <created>1495988045277</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1495988045278</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27132000" />
+    <option name="totallyTimeSpent" value="36789000" />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24479167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19940476" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -389,7 +865,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -402,7 +877,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="script-scroll" />
-    <option name="LAST_COMMIT_MESSAGE" value="script-scroll" />
+    <MESSAGE value="modal popup" />
+    <option name="LAST_COMMIT_MESSAGE" value="modal popup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -414,7 +890,10 @@
         <state relative-caret-position="1139">
           <caret line="89" column="26" lean-forward="false" selection-start-line="89" selection-start-column="26" selection-end-line="89" selection-end-column="26" />
           <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -424,8 +903,8 @@
             <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#div#0;n#div#2;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -452,12 +931,18 @@
           <caret line="73" column="3" lean-forward="false" selection-start-line="73" selection-start-column="3" selection-end-line="73" selection-end-column="3" />
           <folding>
             <element signature="e#17#667#0" expanded="false" />
-            <element signature="e#676#722#0" expanded="false" />
-            <element signature="e#735#896#0" expanded="false" />
-            <element signature="e#908#948#0" expanded="false" />
-            <element signature="e#960#981#0" expanded="false" />
-            <element signature="e#994#1388#0" expanded="false" />
-            <element signature="e#1403#1493#0" expanded="false" />
+            <element signature="e#677#723#0" expanded="false" />
+            <element signature="e#737#898#0" expanded="false" />
+            <element signature="e#910#950#0" expanded="false" />
+            <element signature="e#962#983#0" expanded="false" />
+            <element signature="e#996#2001#0" expanded="false" />
+            <element signature="e#2015#2041#0" expanded="false" />
+            <element signature="e#2058#2666#0" expanded="false" />
+            <element signature="e#2271#2476#0" expanded="false" />
+            <element signature="e#2640#2664#0" expanded="false" />
+            <element signature="e#2677#2805#0" expanded="false" />
+            <element signature="e#2822#2842#0" expanded="false" />
+            <element signature="e#2857#2947#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -486,7 +971,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
           <folding>
-            <element signature="e#8#1056#0" expanded="false" />
             <element signature="e#62#313#0" expanded="false" />
           </folding>
         </state>
@@ -497,7 +981,10 @@
         <state relative-caret-position="1139">
           <caret line="89" column="26" lean-forward="false" selection-start-line="89" selection-start-column="26" selection-end-line="89" selection-end-column="26" />
           <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -507,8 +994,8 @@
             <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#div#0;n#div#2;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -535,12 +1022,18 @@
           <caret line="73" column="3" lean-forward="true" selection-start-line="73" selection-start-column="3" selection-end-line="73" selection-end-column="3" />
           <folding>
             <element signature="e#17#667#0" expanded="false" />
-            <element signature="e#676#722#0" expanded="false" />
-            <element signature="e#735#896#0" expanded="false" />
-            <element signature="e#908#948#0" expanded="false" />
-            <element signature="e#960#981#0" expanded="false" />
-            <element signature="e#994#1388#0" expanded="false" />
-            <element signature="e#1403#1493#0" expanded="false" />
+            <element signature="e#677#723#0" expanded="false" />
+            <element signature="e#737#898#0" expanded="false" />
+            <element signature="e#910#950#0" expanded="false" />
+            <element signature="e#962#983#0" expanded="false" />
+            <element signature="e#996#2001#0" expanded="false" />
+            <element signature="e#2015#2041#0" expanded="false" />
+            <element signature="e#2058#2666#0" expanded="false" />
+            <element signature="e#2271#2476#0" expanded="false" />
+            <element signature="e#2640#2664#0" expanded="false" />
+            <element signature="e#2677#2805#0" expanded="false" />
+            <element signature="e#2822#2842#0" expanded="false" />
+            <element signature="e#2857#2947#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -569,7 +1062,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
           <folding>
-            <element signature="e#8#1056#0" expanded="false" />
             <element signature="e#62#313#0" expanded="false" />
           </folding>
         </state>
@@ -580,7 +1072,10 @@
         <state relative-caret-position="289">
           <caret line="591" column="14" lean-forward="false" selection-start-line="591" selection-start-column="14" selection-end-line="591" selection-end-column="14" />
           <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -590,8 +1085,8 @@
             <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#div#0;n#div#2;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -602,12 +1097,18 @@
           <caret line="67" column="14" lean-forward="false" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
           <folding>
             <element signature="e#17#667#0" expanded="false" />
-            <element signature="e#676#722#0" expanded="false" />
-            <element signature="e#735#896#0" expanded="false" />
-            <element signature="e#908#948#0" expanded="false" />
-            <element signature="e#960#981#0" expanded="false" />
-            <element signature="e#994#1388#0" expanded="false" />
-            <element signature="e#1403#1493#0" expanded="false" />
+            <element signature="e#677#723#0" expanded="false" />
+            <element signature="e#737#898#0" expanded="false" />
+            <element signature="e#910#950#0" expanded="false" />
+            <element signature="e#962#983#0" expanded="false" />
+            <element signature="e#996#2001#0" expanded="false" />
+            <element signature="e#2015#2041#0" expanded="false" />
+            <element signature="e#2058#2666#0" expanded="false" />
+            <element signature="e#2271#2476#0" expanded="false" />
+            <element signature="e#2640#2664#0" expanded="false" />
+            <element signature="e#2677#2805#0" expanded="false" />
+            <element signature="e#2822#2842#0" expanded="false" />
+            <element signature="e#2857#2947#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -652,7 +1153,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
           <folding>
-            <element signature="e#8#1056#0" expanded="false" />
             <element signature="e#62#313#0" expanded="false" />
           </folding>
         </state>
@@ -663,7 +1163,10 @@
         <state relative-caret-position="2346">
           <caret line="376" column="26" lean-forward="false" selection-start-line="376" selection-start-column="26" selection-end-line="376" selection-end-column="26" />
           <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -673,8 +1176,8 @@
             <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#div#0;n#div#2;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -685,12 +1188,18 @@
           <caret line="45" column="1" lean-forward="false" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
           <folding>
             <element signature="e#17#667#0" expanded="false" />
-            <element signature="e#676#722#0" expanded="false" />
-            <element signature="e#735#896#0" expanded="false" />
-            <element signature="e#908#948#0" expanded="false" />
-            <element signature="e#960#981#0" expanded="false" />
-            <element signature="e#994#1388#0" expanded="false" />
-            <element signature="e#1403#1493#0" expanded="false" />
+            <element signature="e#677#723#0" expanded="false" />
+            <element signature="e#737#898#0" expanded="false" />
+            <element signature="e#910#950#0" expanded="false" />
+            <element signature="e#962#983#0" expanded="false" />
+            <element signature="e#996#2001#0" expanded="false" />
+            <element signature="e#2015#2041#0" expanded="false" />
+            <element signature="e#2058#2666#0" expanded="false" />
+            <element signature="e#2271#2476#0" expanded="false" />
+            <element signature="e#2640#2664#0" expanded="false" />
+            <element signature="e#2677#2805#0" expanded="false" />
+            <element signature="e#2822#2842#0" expanded="false" />
+            <element signature="e#2857#2947#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -737,34 +1246,90 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/uncss/style.css" />
-    <entry file="file://$PROJECT_DIR$/sass/utilites/_index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/modules/_index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-          <folding>
-            <element signature="e#17#667#0" expanded="false" />
-            <element signature="e#676#722#0" expanded="false" />
-            <element signature="e#735#896#0" expanded="false" />
-            <element signature="e#908#948#0" expanded="false" />
-            <element signature="e#960#981#0" expanded="false" />
-            <element signature="e#994#1388#0" expanded="false" />
-            <element signature="e#1403#1493#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/all-min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js-custom/script-scroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1429">
+          <caret line="12614" column="19" lean-forward="true" selection-start-line="12614" selection-start-column="19" selection-end-line="12614" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/normalize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1990">
+          <caret line="29" column="15" lean-forward="false" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/contact_form/defines.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="48" lean-forward="false" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js-custom/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="57" column="28" lean-forward="false" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js-custom/valide-form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="36" column="56" lean-forward="true" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/utilites/_index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -788,47 +1353,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/layout/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+        <state relative-caret-position="425">
+          <caret line="38" column="24" lean-forward="false" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
           <folding>
-            <element signature="e#8#1056#0" expanded="false" />
             <element signature="e#62#313#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/all.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="12614" column="19" lean-forward="true" selection-start-line="12614" selection-start-column="19" selection-end-line="12614" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/all-min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="516" column="20" lean-forward="false" selection-start-line="516" selection-start-column="20" selection-end-line="516" selection-end-column="20" />
+        <state relative-caret-position="224">
+          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
           <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -838,17 +1381,43 @@
             <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#div#0;n#div#2;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js-custom/script-scroll.js">
+    <entry file="file://$PROJECT_DIR$/sass/modules/_index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="255">
+          <caret line="140" column="1" lean-forward="true" selection-start-line="140" selection-start-column="1" selection-end-line="140" selection-end-column="1" />
+          <folding>
+            <element signature="e#17#667#0" expanded="false" />
+            <element signature="e#677#723#0" expanded="false" />
+            <element signature="e#737#898#0" expanded="false" />
+            <element signature="e#910#950#0" expanded="false" />
+            <element signature="e#962#983#0" expanded="false" />
+            <element signature="e#996#2001#0" expanded="false" />
+            <element signature="e#2015#2041#0" expanded="false" />
+            <element signature="e#2058#2666#0" expanded="false" />
+            <element signature="e#2271#2476#0" expanded="false" />
+            <element signature="e#2640#2664#0" expanded="false" />
+            <element signature="e#2677#2805#0" expanded="false" />
+            <element signature="e#2822#2842#0" expanded="false" />
+            <element signature="e#2857#2947#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/contact_form/contact_process.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <marker date="1496001386422" expanded="true" signature="249:494" ph="..." />
+            <marker date="1496001386422" expanded="true" signature="272:338" ph="..." />
+            <marker date="1496001386422" expanded="true" signature="361:474" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

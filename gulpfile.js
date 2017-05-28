@@ -14,10 +14,11 @@ var minifyjs = require('gulp-minify');
 
 // Concat js
 gulp.task('scripts', function() {
-    return gulp.src(['bower_components/jquery/dist/jquery.js', 'bower_components/bootstrap-sass/assets/javascripts/bootstrap.js', 'js-custom/script-scroll.js'])
+    return gulp.src(['bower_components/jquery/dist/jquery.js', 'bower_components/bootstrap-sass/assets/javascripts/bootstrap.js', 'js-custom/*.js'])
         .pipe(concatjs('all.js'))
         .pipe(minifyjs(''))
-        .pipe(gulp.dest('app/js/'));
+        .pipe(gulp.dest('app/js/'))
+        .pipe(connect.reload());
 });
 
 //Local Server(localhost:8080)
@@ -30,7 +31,7 @@ gulp.task('connect', function() {
 
 // Css
 gulp.task('css', function () {
-		gulp.src('css/*.css')
+    gulp.src('css/*.css')
     .pipe(concatCss("style.min.css"))
     .pipe(prefix('last 15 versions'))
     .pipe(minifyCSS(''))
@@ -64,10 +65,11 @@ gulp.task('html', function(){
 	.pipe(connect.reload());
 });
 
-//Wath
+//Watch
 gulp.task('watch', function () {
     gulp.watch('sass/**/*.scss', ['sass'])
     gulp.watch('app/*.html', ['html'])
+    gulp.watch('js-custom/*.js', ['scripts'])
 });
 
-gulp.task('default', ['connect', 'html', 'sass','watch']);
+gulp.task('default', ['connect', 'html', 'sass', 'scripts', 'watch']);

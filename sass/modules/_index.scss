@@ -29,10 +29,12 @@
       font-size: 16px;
     }
 }
+
 section {
   display: block;
   padding: 60px 0 100px;
 }
+
 .main-title {
   text-align: center;
   h1 {
@@ -71,7 +73,84 @@ section {
   }
   form {
     padding: 20px 30px 30px;
+    .btn {
+      color: #ffffff;
+      box-shadow: 3px 3px 15px rgba(24, 192, 70, .5);
+      background: linear-gradient(to left, #269623 15%, #36aa33 50%, #269623 100%);
+      padding: 10px 0;
+      font-size: 18px;
+      text-transform: uppercase;
+      width: 285px;
+      transition: all .3s ease;
+      &:hover {
+        background: linear-gradient(to left, #36aa33 15%, #269623 50%, #36aa33 100%);
+        box-shadow: 3px 3px 35px rgba(24, 192, 70, .7);
+      }
+    }
+    .form-control {
+      height: 40px;
+    }
+    input {
+      border-radius: 0;
+      text-align: center;
+      font-size: 16px;
+    }
   }
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+//PoPup
+.modal {
+  .modal-dialog {
+    width: 30%;
+    margin-top: 60px;
+    background: #ffffff;
+    border-bottom: 3px solid $border_color;
+    border-top: 3px solid $border_color;
+    border-radius: 10px;
+  }
+  .modal-header {
+    text-align: center;
+    padding: 15px 15px 0 15px;
+    border: 0;
+    .close {
+      margin-top: -15px;
+      font-size: 25pt;
+      opacity: 1;
+      &:hover {
+        opacity: .5;
+      }
+    }
+  }
+  .modal-body {
+    padding: 0;
+    .main-form {
+      border: none;
+      box-shadow: none;
+      h2 {
+        margin-top: 5px;
+      }
+    }
+  }
+  .modal-footer {
+    display: none;
+  }
+}
+
+.success {
+  text-align: center;
+  background-color: #fff;
+  color: #3bb038;
+  width: 90%;
+  margin: 10px auto 35px;
+  font-size: 20px;
+}
+
+.success-modal {
+  display: none;
 }
 
 .title-block {

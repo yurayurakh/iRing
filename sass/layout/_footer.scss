@@ -35,7 +35,8 @@
     .img-call {
       margin-top: 2px;
       text-align: right;
-      display: block;
+      display: inline-block;
+      margin-left: 20px;
       img {
         box-shadow: 3px 3px 15px rgba(24, 192, 70,.5);
       }
