@@ -82,7 +82,12 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="main-form">
-                        <h2></h2>
+                        <h2>
+                            Закажите прямо сейчас
+                        </h2>
+                        <p>
+                            и получите скидку на следующий заказ
+                        </p>
                         <form class="form-horizontal" role="form" method="post">
                             <div class="form-group">
                                 <div class="col-xs-12">
@@ -110,7 +115,7 @@
             </div>
         </div>
     </section>
-    <section class="block3">
+    <section class="block3" id="warranty">
         <div class="container">
             <div class="row">
                 <div class="block3__title">
@@ -185,7 +190,10 @@
                 <div class="col-sm-4">
                     <div class="video__item">
                         <div class="video__clip">
-                            <img src="img/test.png" alt="">
+                            <video height="auto" loop="loop" autoplay="autoplay">
+                                <source type="video/mp4" src="video/handle1.mp4">
+                                <source type="video/webm" src="video/handle1.webm">
+                            </video>
                         </div>
                         <div class="video__title">
                             НАДЕЖНАЯ И КОМФОРТНАЯ
@@ -202,7 +210,10 @@
                 <div class="col-sm-4">
                     <div class="video__item">
                         <div class="video__clip">
-                            <img src="img/test.png" alt="">
+                            <video height="auto" loop="loop" autoplay="autoplay">
+                                <source type="video/mp4" src="video/car.mp4">
+                                <source type="video/webm" src="video/car.webm">
+                            </video>
                         </div>
                         <div class="video__title">
                             ИДЕАЛЬНАЯ ПОДСТАВКА<br/>
@@ -220,7 +231,10 @@
                 <div class="col-sm-4">
                     <div class="video__item">
                         <div class="video__clip">
-                            <img src="img/test.png" alt="">
+                            <video height="auto" loop="loop" autoplay="autoplay">
+                                <source type="video/mp4" src="video/wall1.mp4">
+
+                            </video>
                         </div>
                         <div class="video__title">
                             КРЕПИТЕ НА ЛЮБУЮ 
@@ -236,7 +250,7 @@
             </div>
         </div>
     </section>
-    <section class="block4 bg-block">
+    <section class="block4 bg-block" id="catalog">
         <div class="container">
             <div class="row">
                 <div class="block4__title">
@@ -379,7 +393,7 @@
             </div>
         </div>
     </section>
-    <section class="block5">
+    <section class="block5" id="delivery">
         <div class="container">
             <div class="row">
                 <div class="title-block">
@@ -440,7 +454,7 @@
             </div>
         </div>
     </section>
-    <section class="block6 bg-block">
+    <section class="block6 bg-block" id="sale">
         <div class="container">
             <div class="row">
                 <div class="col-sm-3">
@@ -500,7 +514,7 @@
             </div>
         </div>
     </section>
-    <section class="block7">
+    <section class="block7" id="review">
         <div class="container">
             <div class="row">
                 <div class="title-block">
@@ -595,19 +609,19 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="footer__menu">
-                        <a href="#">
+                        <a href="#warranty">
                             Наши гарантии
                         </a>
-                        <a href="#">
+                        <a href="#delivery">
                             Доставка и оплата
                         </a>
-                        <a href="#">
+                        <a href="#catalog">
                             Каталог товаров
                         </a>
-                        <a href="#">
+                        <a href="#sale">
                             Акция
                         </a>
-                        <a href="#">
+                        <a href="#review">
                             Отзывы
                         </a>
                     </div>
@@ -637,7 +651,6 @@
             </div>
         </div>
     </section>
-    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="../bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+    <script src="js/all-min.js"></script>
 </body>
 </html>

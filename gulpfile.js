@@ -8,7 +8,17 @@ var connect = require('gulp-connect');
 var livereload = require('gulp-livereload');
 var sass = require('gulp-sass');
 var uncss = require('gulp-uncss');
+var concatjs = require('gulp-concat');
+var minifyjs = require('gulp-minify');
 
+
+// Concat js
+gulp.task('scripts', function() {
+    return gulp.src(['bower_components/jquery/dist/jquery.js', 'bower_components/bootstrap-sass/assets/javascripts/bootstrap.js', 'js-custom/script-scroll.js'])
+        .pipe(concatjs('all.js'))
+        .pipe(minifyjs(''))
+        .pipe(gulp.dest('app/js/'));
+});
 
 //Local Server(localhost:8080)
 gulp.task('connect', function() {
