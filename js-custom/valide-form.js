@@ -38,7 +38,7 @@
                         }, 1000);
                         setTimeout(function(){
                             $('.close-modal').click();
-                            $('form input[type="text"], form input[type="email"], form input[type="tel"]').val('');
+                            $('form input[type="text"], form input[type="email"], form input[type="tel"], input[name="type"], input[name="ihook"], input[type="checkbox"] ').val('');
                         }, 3000);
                     } else {
                         form.html(msg);

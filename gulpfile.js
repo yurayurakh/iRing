@@ -14,8 +14,8 @@ var minifyjs = require('gulp-minify');
 
 // Concat js
 gulp.task('scripts', function() {
-    return gulp.src(['bower_components/jquery/dist/jquery.js', 'bower_components/bootstrap-sass/assets/javascripts/bootstrap.js', 'js-custom/*.js'])
-        .pipe(concatjs('all.js'))
+    return gulp.src('js-custom/*.js')
+        .pipe(concatjs('common.js'))
         .pipe(minifyjs(''))
         .pipe(gulp.dest('app/js/'))
         .pipe(connect.reload());
@@ -45,7 +45,7 @@ gulp.task('uncss', function () {
         .pipe(uncss({
             html: ['app/index.html']
         }))
-        .pipe(gulp.dest('app/css'));
+        .pipe(gulp.dest('app/uncss'));
 });
 
 // Sass
@@ -67,9 +67,9 @@ gulp.task('html', function(){
 
 //Watch
 gulp.task('watch', function () {
-    gulp.watch('sass/**/*.scss', ['sass'])
-    gulp.watch('app/*.html', ['html'])
-    gulp.watch('js-custom/*.js', ['scripts'])
+    gulp.watch('sass/**/*.scss', ['sass']);
+    gulp.watch('app/*.html', ['html']);
+    gulp.watch('js-custom/*.js', ['scripts']);
 });
 
-gulp.task('default', ['connect', 'html', 'sass', 'scripts', 'watch']);
+gulp.task('default', ['connect', 'html', 'sass', 'watch']);

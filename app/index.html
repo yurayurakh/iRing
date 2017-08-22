@@ -9,712 +9,701 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="modal fade modal-order" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" style="display: none;">
-        <div class="modal-dialog modal-sm">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button class="close" type="button" data-dismiss="modal">x</button>
-                </div>
-                <div class="modal-body">
-                    <div class="main-form">
-                        <h2>
-                            Оставьте заявку
-                        </h2>
-                        <p>
-                            и мы свяжемся с вами в течении 15 минут
-                        </p>
-                        <form class="form-horizontal" role="form" method="post">
-                            <div class="form-group">
-                                <div class="col-xs-12">
-                                    <input type="text" name="name" class="form-control"  placeholder="Введите ваше имя">
-                                </div>
+<div class="modal fade modal-order" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">x</button>
+            </div>
+            <div class="modal-body">
+                <div class="main-form">
+                    <h2>
+                        Оставьте заявку
+                    </h2>
+                    <p>
+                        и мы свяжемся с вами в течении 15 минут
+                    </p>
+                    <form class="form-horizontal" role="form" method="post">
+                        <div class="form-group">
+                            <div class="col-xs-12">
+                                <input type="text" name="name" class="form-control"  placeholder="Введите ваше имя">
                             </div>
-                            <div class="form-group">
-                                <div class="col-xs-12">
-                                    <input type="tel" name="phone" class="form-control" placeholder="Введите ваш телефон">
-                                </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-xs-12">
+                                <input type="tel" name="phone" class="form-control" placeholder="Введите ваш телефон">
                             </div>
-                            <div class="form-group">
-                                <div class="col-xs-12">
-                                    <input type="email" name="email" class="form-control" placeholder="Введите ваш e-mail">
-                                </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-xs-12">
+                                <input type="email" name="email" class="form-control" placeholder="Введите ваш e-mail">
                             </div>
-                            <div class="form-group">
-                                <div class="col-xs-12">
-                                    <input type="submit" class="btn btn-red btn-default" value="Заказать сейчас"/>
-                                </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-xs-12">
+                                <input type="submit" class="btn btn-red btn-default" value="Заказать сейчас"/>
                             </div>
-                        </form>
-                    </div>
+                        </div>
+                        <input type="hidden" id="type-iring" name="type">
+                        <input type="hidden" id="ihook" name="ihook">
+                    </form>
                 </div>
             </div>
         </div>
     </div>
-    <div class="modal fade" id="successModal" tabindex="-1" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button class="close close-modal" type="button" data-dismiss="modal">x</button>
+</div>
+<div class="modal fade" id="successModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close close-modal" type="button" data-dismiss="modal">x</button>
+            </div>
+            <div class="modal-body">
+                <div class="row form-list-forms">
+                    <form class="form-inline" method="post">
+                        <div class="success">
+                            <p>Спасибо за заявку! </p>
+                            <span>Наш менеджер свяжется с Вами!</span>
+                        </div>
+                    </form>
                 </div>
-                <div class="modal-body">
-                    <div class="row form-list-forms">
-                        <form class="form-inline" method="post">
-                            <div class="success">
-                                <p>Спасибо за заявку! </p>
-                                <span>Наш менеджер свяжется с Вами!</span>
-                            </div>
-                        </form>
-                    </div>
+            </div>
+            <div class="modal-footer"><button class="btn btn-default" type="button" data-dismiss="modal">Закрыть</button>
+                <button data-toggle="modal" data-target="#myModal">Сохранить изменения</button></div>
+            <!--Button click when form send data -->
+            <button data-toggle="modal" data-target="#successModal" class="success-modal">Сохранить изменения</button>
+        </div>
+    </div>
+</div>
+<section class="block1">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5">
+                <div class="block1__title">
+                    <h2 class="title-sale">Только сегодня скидка -40%!</h2>
+                    <h2>До окончания акции осталось:</h2>
                 </div>
-                <div class="modal-footer"><button class="btn btn-default" type="button" data-dismiss="modal">Закрыть</button>
-                    <button data-toggle="modal" data-target="#myModal">Сохранить изменения</button></div>
-                <!--Button click when form send data -->
-                <button data-toggle="modal" data-target="#successModal" class="success-modal">Сохранить изменения</button>
+            </div>
+            <div class="col-sm-4">
+                <div class="block1__timer">
+                    <script src="http://megatimer.ru/s/2f4dc89389cafbce01cb3ed98c52a761.js"></script>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="block1__title">
+                    <h2 class="title-sale title-right">часов по акции</h2>
+                    <h2 class="title-right">осталось: 78 шт.</h2>
+                </div>
             </div>
         </div>
     </div>
-    <section class="block1">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5">
-                    <div class="block1__title">
-                        <h2 class="title-sale">Только сегодня скидка -40%!</h2>
-                        <h2>До окончания акции осталось:</h2>
-                    </div>
+</section>
+<section class="block2 bg-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5">
+                <div class="main-title">
+                    <h1>
+                        <span>i</span>Ring
+                    </h1>
+                    <h2>
+                        УНИВЕРСАЛЬНОЕ КРЕПЛЕНИЕ<br/>
+                        ДЛЯ СМАРТФОНА
+                    </h2>
                 </div>
-                <div class="col-sm-4">
-                    <div class="block1__timer">
-                        <script src="http://megatimer.ru/s/2f4dc89389cafbce01cb3ed98c52a761.js"></script>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="block1__title">
-                        <h2 class="title-sale title-right">часов по акции</h2>
-                        <h2 class="title-right">осталось: 78 шт.</h2>
-                    </div>
+                <div class="product-title">
+                    <img src="img/product.png" alt="iRing">
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="block2 bg-block">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5">
-                    <div class="main-title">
-                        <h1>
-                            <span>i</span>Ring
-                        </h1>
-                        <h2>
-                            УНИВЕРСАЛЬНОЕ КРЕПЛЕНИЕ<br/>
-                            ДЛЯ СМАРТФОНА
-                        </h2>
-                    </div>
-                    <div class="product-title">
-                        <img src="img/product.png" alt="iRing">
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="price">
-                        <div class="price-old">
-                            <img src="img/old-price-block.png" alt="price-old">
-                            <div class="price-text">
+            <div class="col-sm-3">
+                <div class="price">
+                    <div class="price-old">
+                        <img src="img/old-price-block.png" alt="price-old">
+                        <div class="price-text">
                                 <span>
                                     Старая<br/>
                                     цена
                                 </span>
-                                <span>
+                            <span>
                                     150 грн
                                 </span>
-                            </div>
                         </div>
-                        <div class="price-new">
-                            <img src="img/new-price-block.png" alt="price-new">
-                            <div class="price-text">
+                    </div>
+                    <div class="price-new">
+                        <img src="img/new-price-block.png" alt="price-new">
+                        <div class="price-text">
                                 <span>
                                     Новая<br/>
                                     цена
                                 </span>
-                                <span>
+                            <span>
                                     90 грн
                                 </span>
-                            </div>
-                        </div>
-                        <div class="arrow">
-                            <img src="img/arrow.png" alt="arrow">
                         </div>
                     </div>
+                    <div class="arrow">
+                        <img src="img/arrow.png" alt="arrow">
+                    </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="main-form">
+            </div>
+            <div class="col-sm-4">
+                <div class="main-form">
+                    <h2>
+                        Закажите прямо сейчас
+                    </h2>
+                    <p>
+                        и получите скидку на следующий заказ
+                    </p>
+                    <form class="form-horizontal" role="form" method="post">
+                        <div class="form-group">
+                            <div class="col-xs-12">
+                                <input type="text" name="name" class="form-control"  placeholder="Введите ваше имя">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-xs-12">
+                                <input type="tel" name="phone" class="form-control" placeholder="Введите ваш телефон">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-xs-12">
+                                <input type="email" name="email" class="form-control" placeholder="Введите ваш e-mail">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-xs-12">
+                                <input type="submit" class="btn btn-red btn-default" value="Заказать сейчас"/>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="block3" id="warranty">
+    <div class="container">
+        <div class="row">
+            <div class="block3__title">
+                <h2>
+                    iRING — УНИВЕРСАЛЬНОЕ КРЕПЛЕНИЕ ДЛЯ СМАРТФОНА 3 в 1
+                </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="advantage__item">
+                    <div class="advantage__img">
+                        <img src="img/icon-compatibility.png" alt="compatibility">
+                    </div>
+                    <div class="advantage__title">
+                        Совместимость
+                    </div>
+                    <div class="advantage__text">
+                        iRing совместим со всеми
+                        моделями смартфонов
+                        и планшетов
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="advantage__item">
+                    <div class="advantage__img">
+                        <img src="img/icon-use.png" alt="use">
+                    </div>
+                    <div class="advantage__title">
+                        Совместимость
+                    </div>
+                    <div class="advantage__text">
+                        Возможность использовать
+                        более 100 раз благодаря клеевой
+                        основе STIXX, iRing
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="advantage__item">
+                    <div class="advantage__img">
+                        <img src="img/icon-quality.png" alt="quality">
+                    </div>
+                    <div class="advantage__title">
+                        Качество
+                    </div>
+                    <div class="advantage__text">
+                        Наличие только<br/>
+                        оригинальный iRing<br/>
+                        высшего качества
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="advantage__item">
+                    <div class="advantage__img">
+                        <img src="img/icon-delivery.png" alt="delivery">
+                    </div>
+                    <div class="advantage__title">
+                        Доставка
+                    </div>
+                    <div class="advantage__text">
+                        Осуществляется доставка<br/>
+                        по всей территории<br/>
+                        Украины
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="video__item">
+                    <div class="video__clip">
+                        <video height="auto" loop="loop" autoplay="autoplay">
+                            <source type="video/mp4" src="video/handle1.mp4">
+                            <source type="video/webm" src="video/handle1.webm">
+                        </video>
+                    </div>
+                    <div class="video__title">
+                        НАДЕЖНАЯ И КОМФОРТНАЯ
+                        ФИКСАЦИЯ В РУКЕ
+                    </div>
+                    <div class="video__text">
+                        Используя iRing, вы чувствуете<br/>
+                        себя более уверенно, зная, что<br/>
+                        Ваш смартфон не вылетит случайно<br/>
+                        из руки и не разобьется.
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="video__item">
+                    <div class="video__clip">
+                        <video height="auto" loop="loop" autoplay="autoplay">
+                            <source type="video/mp4" src="video/car.mp4">
+                            <source type="video/webm" src="video/car.webm">
+                        </video>
+                    </div>
+                    <div class="video__title">
+                        ИДЕАЛЬНАЯ ПОДСТАВКА<br/>
+                        ДЛЯ СМАРТФОНА
+                    </div>
+                    <div class="video__text">
+                        Независимо от того, где находится<br/>
+                        мобильное устройство, на компьютерном<br/>
+                        столе или на прикроватной тумбочке,<br/>
+                        крепление iRing станет для него<br/>
+                        идеальной подставкой.
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="video__item">
+                    <div class="video__clip">
+                        <video height="auto" loop="loop" autoplay="autoplay">
+                            <source type="video/mp4" src="video/wall1.mp4">
+
+                        </video>
+                    </div>
+                    <div class="video__title">
+                        КРЕПИТЕ НА ЛЮБУЮ
+                        ВЕРТИКАЛЬНУЮ ПОВЕРХНОСТЬ
+                    </div>
+                    <div class="video__text">
+                        Одним движением руки фиксируйте<br/>
+                        смартфон или планшет на любой<br/>
+                        вертикальной поверхности.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="block4 bg-block" id="catalog">
+    <div class="container">
+        <div class="row">
+            <div class="block4__title">
+                <div class="main-title">
+                    <h2>
+                        <span>i</span>Ring<span>premium</span>
+                    </h2>
+                    <h2>
+                        Стандартный набор iRing + hook
+                    </h2>
+                    <p>
+                        (крепление для фиксации мобильного устройства на вертикальной поверхности и в автомобиле)
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="products">
+                <div class="col-sm-3">
+                    <div class="product">
+                        <div class="product__img">
+                            <img src="img/iring-gold.jpg" alt="iring-gold">
+                        </div>
+                        <div class="product__descr_ihook">
+                            iRing Gold <br/> ЗОЛОТО <span class="price">75 грн</span>
+                        </div>
+                        <div class="product__descr">
+                            <label class="hookgold unchecked" for="hookgold"></label>
+                            <input class="ihook" type="checkbox" id="hookgold" data-hook="nohook">+ Hook <span class="price">20 грн</span>
+                        </div>
+                        <a class="btn-order iring" data-toggle="modal" data-type="gold" data-target=".modal-order" href="#">Купить</a>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="product">
+                        <div class="product__img">
+                            <img src="img/iring-rose_gold.jpg" alt="iring-gold">
+                        </div>
+                        <div class="product__descr_ihook">
+                            iRing Rose Gold <br/> РОЗОВОЕ ЗОЛОТО <span class="price">75 грн</span>
+                        </div>
+                        <div class="product__descr">
+                            <label class="hookrose_gold unchecked" for="hookrose_gold"></label>
+                            <input class="ihook" type="checkbox" id="hookrose_gold" data-hook="nohook">+ Hook <span class="price">20 грн</span>
+                        </div>
+                        <a class="btn-order iring" data-toggle="modal" data-type="rose_gold" data-target=".modal-order" href="#">Купить</a>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="product">
+                        <div class="product__img">
+                            <img src="img/iring-black.jpg" alt="iring-gold">
+                        </div>
+                        <div class="product__descr_ihook">
+                            iRing Black <br/> ЧЕРНЫЙ <span class="price">75 грн</span>
+                        </div>
+                        <div class="product__descr">
+                            <label class="hookblack unchecked" for="hookblack"></label>
+                            <input class="ihook" type="checkbox" id="hookblack" data-hook="nohook">+ Hook <span class="price">20 грн</span>
+                        </div>
+                        <a class="btn-order iring" data-toggle="modal" data-type="black" data-target=".modal-order" href="#">Купить</a>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="product">
+                        <div class="product__img">
+                            <img src="img/iring-white.jpg" alt="iring-gold">
+                        </div>
+                        <div class="product__descr_ihook">
+                            iRing White <br/> БЕЛЫЙ <span class="price">75 грн</span>
+                        </div>
+                        <div class="product__descr">
+                            <label class="hookwhite unchecked" for="hookwhite"></label>
+                            <input class="ihook" type="checkbox" id="hookwhite" data-hook="nohook">+ Hook <span class="price">20 грн</span>
+                        </div>
+                        <a class="btn-order iring" data-toggle="modal" data-type="white" data-target=".modal-order" href="#">Купить</a>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="product">
+                        <div class="product__img">
+                            <img src="img/iring-grey.jpg" alt="iring-gold">
+                        </div>
+                        <div class="product__descr_ihook">
+                            iRing Graphite Grey <br/> СЕРЫЙ <span class="price">75 грн</span>
+                        </div>
+                        <div class="product__descr">
+                            <label class="hookgrey unchecked" for="hookgrey"></label>
+                            <input class="ihook" type="checkbox" id="hookgrey" data-hook="nohook">+ Hook <span class="price">20 грн</span>
+                        </div>
+                        <a class="btn-order iring" data-toggle="modal" data-type="grey" data-target=".modal-order" href="#">Купить</a>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="product">
+                        <div class="product__img">
+                            <img src="img/iring-silver.jpg" alt="iring-gold">
+                        </div>
+                        <div class="product__descr_ihook">
+                            iRing Silver <br/> CЕРЕБРО <span class="price">75 грн</span>
+                        </div>
+                        <div class="product__descr">
+                            <label class="hooksilver unchecked" for="hooksilver"></label>
+                            <input class="ihook" type="checkbox" id="hooksilver" data-hook="nohook">+ Hook <span class="price">20 грн</span>
+                        </div>
+                        <a class="btn-order iring" data-toggle="modal" data-type="silver" data-target=".modal-order" href="#">Купить</a>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="product">
+                        <div class="product__img">
+                            <img src="img/iring-mint.jpg" alt="iring-gold">
+                        </div>
+                        <div class="product__descr_ihook">
+                            iRing Mint Green <br/> МЕНТОЛ <span class="price">75 грн</span>
+                        </div>
+                        <div class="product__descr">
+                            <label class="hookmint unchecked" for="hookmint"></label>
+                            <input class="ihook" type="checkbox" id="hookmint" data-hook="nohook">+ Hook <span class="price">20 грн</span>
+                        </div>
+                        <a class="btn-order iring" data-toggle="modal" data-type="mint" data-target=".modal-order" href="#">Купить</a>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="product">
+                        <div class="product__img">
+                            <img src="img/iring-rose.jpg" alt="iring-gold">
+                        </div>
+                        <div class="product__descr_ihook">
+                            iRing Rose <br/> РОЗОВЫЙ <span class="price">75 грн</span>
+                        </div>
+                        <div class="product__descr">
+                            <label class="hookrose unchecked" for="hookrose"></label>
+                            <input class="ihook" type="checkbox" id="hookrose" data-hook="nohook">+ Hook <span class="price">20 грн</span>
+                        </div>
+                        <a class="btn-order iring" data-toggle="modal" data-type="rose" data-target=".modal-order" href="#">Купить</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="block5" id="delivery">
+    <div class="container">
+        <div class="row">
+            <div class="title-block">
+                <h2>
+                    Доставка и оплата
+                </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="advantage__item">
+                    <div class="advantage__img">
+                        <img src="img/icon-arrow_order.png" alt="arrow_order">
+                    </div>
+                    <div class="advantage__title">
+                        Как заказать?
+                    </div>
+                    <div class="advantage__text">
+                        Воспользуйтесь формой заказа и<br/>
+                        оставьте Ваше имя и телефон.<br/>
+                        Менеджер перезвонит Вам и<br/>
+                        оформит заказ
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="advantage__item">
+                    <div class="advantage__img">
+                        <img src="img/icon-delivery.png" alt="delivery">
+                    </div>
+                    <div class="advantage__title">
+                        Доставка
+                    </div>
+                    <div class="advantage__text">
+                        Мы отправим Ваш iRing в день<br/>
+                        заказа. В среднем, срок доставки<br/>
+                        занимает 2-3 робочих дней.<br/>
+                        Стоимость от 30 гривен
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="advantage__item">
+                    <div class="advantage__img">
+                        <img src="img/icon-warranty.png" alt="warranty">
+                    </div>
+                    <div class="advantage__title">
+                        Гарантии
+                    </div>
+                    <div class="advantage__text">
+                        Перед отправкой товары проходят<br/>
+                        100% проверку. Вы вправе отказаться<br/>
+                        от покупки в течении 14 дней при<br/>
+                        обнаружении брака и дефектов
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="block6 bg-block" id="sale">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="sale__descr">
+                    <div class="sale__text">
+                        <h2 class="red-text">Только сегодня скидка -73%!</h2>
+                        <h2>До окончания акции осталось:</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5">
+                <div class="sale__title">
+                    <span class="red-text">iRing ПО АКЦИИ</span>
+                    <span>Осталось: 78 шт.</span>
+                </div>
+                <div class="sale__timer">
+                    <script src="http://megatimer.ru/s/2f4dc89389cafbce01cb3ed98c52a761.js"></script>
+                </div>
+                <div class="sale__product">
+                    <img src="img/iring-gorisontal.png" alt="iring">
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="main-form">
+                    <div class="form__title">
                         <h2>
                             Закажите прямо сейчас
                         </h2>
                         <p>
                             и получите скидку на следующий заказ
                         </p>
-                        <form class="form-horizontal" role="form" method="post">
-                            <div class="form-group">
-                                <div class="col-xs-12">
-                                    <input type="text" name="name" class="form-control"  placeholder="Введите ваше имя">
-                                </div>
+                    </div>
+                    <form class="form-horizontal" role="form" method="post">
+                        <div class="form-group">
+                            <div class="col-xs-12">
+                                <input type="text" name="name" class="form-control"  placeholder="Введите ваше имя">
                             </div>
-                            <div class="form-group">
-                                <div class="col-xs-12">
-                                    <input type="tel" name="phone" class="form-control" placeholder="Введите ваш телефон">
-                                </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-xs-12">
+                                <input type="tel" name="phone" class="form-control" placeholder="Введите ваш телефон">
                             </div>
-                            <div class="form-group">
-                                <div class="col-xs-12">
-                                    <input type="email" name="email" class="form-control" placeholder="Введите ваш e-mail">
-                                </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-xs-12">
+                                <input type="email" name="email" class="form-control" placeholder="Введите ваш e-mail">
                             </div>
-                            <div class="form-group">
-                                <div class="col-xs-12">
-                                    <input type="submit" class="btn btn-red btn-default" value="Заказать сейчас"/>
-                                </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-xs-12">
+                                <input type="submit" class="btn btn-red btn-default" value="Заказать сейчас"/>
                             </div>
-                        </form>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="block7" id="review">
+    <div class="container">
+        <div class="row">
+            <div class="title-block">
+                <h2>
+                    Отзывы покупателей
+                </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="review">
+                    <div class="review__user">
+                        <div class="user__name">
+                            Петр Иванович
+                        </div>
+                        <div class="user__product">
+                            iRing Black |комплект iRing + ihook| ЧЕРНЫЙ
+                        </div>
+                    </div>
+                    <div class="review__descr">
+                        Укрепление и развитие структуры играет
+                        важную роль в формировании форм развития.
+                        Равным образом рамки и место обучения
+                        кадров играет важную роль в формировании
+                        соответствующий условий активизации.
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="review">
+                    <div class="review__user">
+                        <div class="user__name">
+                            Петр Иванович
+                        </div>
+                        <div class="user__product">
+                            iRing Black |комплект iRing + ihook| ЧЕРНЫЙ
+                        </div>
+                    </div>
+                    <div class="review__descr">
+                        Укрепление и развитие структуры играет
+                        важную роль в формировании форм развития.
+                        Равным образом рамки и место обучения
+                        кадров играет важную роль в формировании
+                        соответствующий условий активизации.
+                        Укрепление и развитие структуры играет
+                        важную роль в формировании форм развития.
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="review">
+                    <div class="review__user">
+                        <div class="user__name">
+                            Петр Иванович
+                        </div>
+                        <div class="user__product">
+                            iRing Black |комплект iRing + ihook| ЧЕРНЫЙ
+                        </div>
+                    </div>
+                    <div class="review__descr">
+                        Укрепление и развитие структуры играет
+                        важную роль в формировании форм развития.
+                        Равным образом рамки и место обучения
+                        кадров играет важную роль в формировании
+                        соответствующий условий активизации.
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <section class="block3" id="warranty">
-        <div class="container">
-            <div class="row">
-                <div class="block3__title">
-                    <h2>
-                        iRING — УНИВЕРСАЛЬНОЕ КРЕПЛЕНИЕ ДЛЯ СМАРТФОНА 3 в 1
-                    </h2>
-                </div>
-            </div>  
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="advantage__item">
-                        <div class="advantage__img">
-                            <img src="img/icon-compatibility.png" alt="compatibility">
-                        </div>
-                        <div class="advantage__title">
-                            Совместимость
-                        </div>
-                        <div class="advantage__text">
-                            iRing совместим со всеми
-                            моделями смартфонов
-                            и планшетов
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="advantage__item">
-                        <div class="advantage__img">
-                            <img src="img/icon-use.png" alt="use">
-                        </div>
-                        <div class="advantage__title">
-                            Совместимость
-                        </div>
-                        <div class="advantage__text">
-                            Возможность использовать
-                            более 100 раз благодаря клеевой
-                            основе STIXX, iRing
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="advantage__item">
-                        <div class="advantage__img">
-                            <img src="img/icon-quality.png" alt="quality">
-                        </div>
-                        <div class="advantage__title">
-                            Качество
-                        </div>
-                        <div class="advantage__text">
-                            Наличие только<br/>
-                            оригинальный iRing<br/>
-                            высшего качества
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="advantage__item">
-                        <div class="advantage__img">
-                            <img src="img/icon-delivery.png" alt="delivery">
-                        </div>
-                        <div class="advantage__title">
-                            Доставка
-                        </div>
-                        <div class="advantage__text">
-                            Осуществляется доставка<br/>
-                            по всей территории<br/>
-                            Украины
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="video__item">
-                        <div class="video__clip">
-                            <video height="auto" loop="loop" autoplay="autoplay">
-                                <source type="video/mp4" src="video/handle1.mp4">
-                                <source type="video/webm" src="video/handle1.webm">
-                            </video>
-                        </div>
-                        <div class="video__title">
-                            НАДЕЖНАЯ И КОМФОРТНАЯ
-                            ФИКСАЦИЯ В РУКЕ
-                        </div>
-                        <div class="video__text">
-                            Используя iRing, вы чувствуете<br/>
-                            себя более уверенно, зная, что<br/>
-                            Ваш смартфон не вылетит случайно<br/>
-                            из руки и не разобьется.
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="video__item">
-                        <div class="video__clip">
-                            <video height="auto" loop="loop" autoplay="autoplay">
-                                <source type="video/mp4" src="video/car.mp4">
-                                <source type="video/webm" src="video/car.webm">
-                            </video>
-                        </div>
-                        <div class="video__title">
-                            ИДЕАЛЬНАЯ ПОДСТАВКА<br/>
-                            ДЛЯ СМАРТФОНА
-                        </div>
-                        <div class="video__text">
-                            Независимо от того, где находится<br/>
-                            мобильное устройство, на компьютерном<br/>
-                            столе или на прикроватной тумбочке,<br/>
-                            крепление iRing станет для него<br/>
-                            идеальной подставкой.
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="video__item">
-                        <div class="video__clip">
-                            <video height="auto" loop="loop" autoplay="autoplay">
-                                <source type="video/mp4" src="video/wall1.mp4">
-
-                            </video>
-                        </div>
-                        <div class="video__title">
-                            КРЕПИТЕ НА ЛЮБУЮ 
-                            ВЕРТИКАЛЬНУЮ ПОВЕРХНОСТЬ
-                        </div>
-                        <div class="video__text">
-                            Одним движением руки фиксируйте<br/>
-                            смартфон или планшет на любой<br/>
-                            вертикальной поверхности.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="block4 bg-block" id="catalog">
-        <div class="container">
-            <div class="row">
-                <div class="block4__title">
-                    <div class="main-title">
-                        <h1>
-                            <span>i</span>Ring<span>premium</span>
-                        </h1>
-                        <h2>
-                            Стандартный набор iRing + hook
-                        </h2>
-                        <p>
-                            (крепление для фиксации мобильного устройства на вертикальной поверхности и в автомобиле)
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="products">
-                    <div class="col-sm-3">
-                        <div class="product">
-                            <div class="product__img">
-                                <img src="img/iring-gold.jpg" alt="iring-gold">
-                            </div>
-                            <div class="product__descr_ihook">
-                                iRing Gold |комплект iRing +<br/>
-                                ihook| ЗОЛОТО  <span class="price">95 грн</span>
-                            </div>
-                            <div class="product__descr">
-                                iRing Gold | ЗОЛОТО <span class="price">75 грн</span>
-                            </div>
-                            <a class="btn-order" href="#">Купить</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="product">
-                            <div class="product__img">
-                                <img src="img/iring-gold.jpg" alt="iring-gold">
-                            </div>
-                            <div class="product__descr_ihook">
-                                iRing Gold |комплект iRing +<br/>
-                                ihook| ЗОЛОТО  <span class="price">95 грн</span>
-                            </div>
-                            <div class="product__descr">
-                                iRing Gold | ЗОЛОТО <span class="price">75 грн</span>
-                            </div>
-                            <a class="btn-order" href="#">Купить</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="product">
-                            <div class="product__img">
-                                <img src="img/iring-gold.jpg" alt="iring-gold">
-                            </div>
-                            <div class="product__descr_ihook">
-                                iRing Gold |комплект iRing +<br/>
-                                ihook| ЗОЛОТО  <span class="price">95 грн</span>
-                            </div>
-                            <div class="product__descr">
-                                iRing Gold | ЗОЛОТО <span class="price">75 грн</span>
-                            </div>
-                            <a class="btn-order" href="#">Купить</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="product">
-                            <div class="product__img">
-                                <img src="img/iring-gold.jpg" alt="iring-gold">
-                            </div>
-                            <div class="product__descr_ihook">
-                                iRing Gold |комплект iRing +<br/>
-                                ihook| ЗОЛОТО  <span class="price">95 грн</span>
-                            </div>
-                            <div class="product__descr">
-                                iRing Gold | ЗОЛОТО <span class="price">75 грн</span>
-                            </div>
-                            <a class="btn-order" href="#">Купить</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="product">
-                            <div class="product__img">
-                                <img src="img/iring-gold.jpg" alt="iring-gold">
-                            </div>
-                            <div class="product__descr_ihook">
-                                iRing Gold |комплект iRing +<br/>
-                                ihook| ЗОЛОТО  <span class="price">95 грн</span>
-                            </div>
-                            <div class="product__descr">
-                                iRing Gold | ЗОЛОТО <span class="price">75 грн</span>
-                            </div>
-                            <a class="btn-order" href="#">Купить</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="product">
-                            <div class="product__img">
-                                <img src="img/iring-gold.jpg" alt="iring-gold">
-                            </div>
-                            <div class="product__descr_ihook">
-                                iRing Gold |комплект iRing +<br/>
-                                ihook| ЗОЛОТО  <span class="price">95 грн</span>
-                            </div>
-                            <div class="product__descr">
-                                iRing Gold | ЗОЛОТО <span class="price">75 грн</span>
-                            </div>
-                            <a class="btn-order" href="#">Купить</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="product">
-                            <div class="product__img">
-                                <img src="img/iring-gold.jpg" alt="iring-gold">
-                            </div>
-                            <div class="product__descr_ihook">
-                                iRing Gold |комплект iRing +<br/>
-                                ihook| ЗОЛОТО  <span class="price">95 грн</span>
-                            </div>
-                            <div class="product__descr">
-                                iRing Gold | ЗОЛОТО <span class="price">75 грн</span>
-                            </div>
-                            <a class="btn-order" href="#">Купить</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="product">
-                            <div class="product__img">
-                                <img src="img/iring-gold.jpg" alt="iring-gold">
-                            </div>
-                            <div class="product__descr_ihook">
-                                iRing Gold |комплект iRing +<br/>
-                                ihook| ЗОЛОТО  <span class="price">95 грн</span>
-                            </div>
-                            <div class="product__descr">
-                                iRing Gold | ЗОЛОТО <span class="price">75 грн</span>
-                            </div>
-                            <a class="btn-order" href="#">Купить</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="block5" id="delivery">
-        <div class="container">
-            <div class="row">
-                <div class="title-block">
-                    <h2>
+    </div>
+</section>
+<section class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="footer__menu">
+                    <a href="#warranty">
+                        Наши гарантии
+                    </a>
+                    <a href="#delivery">
                         Доставка и оплата
-                    </h2>
+                    </a>
+                    <a href="#catalog">
+                        Каталог товаров
+                    </a>
+                    <a href="#sale">
+                        Акция
+                    </a>
+                    <a href="#review">
+                        Отзывы
+                    </a>
                 </div>
-            </div>  
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="advantage__item">
-                        <div class="advantage__img">
-                            <img src="img/icon-arrow_order.png" alt="arrow_order">
-                        </div>
-                        <div class="advantage__title">
-                            Как заказать?
-                        </div>
-                        <div class="advantage__text">
-                            Воспользуйтесь формой заказа и<br/>
-                            оставьте Ваше имя и телефон.<br/>
-                            Менеджер перезвонит Вам и<br/>
-                            оформит заказ
-                        </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="footer__copyright">
+                    <p>2016-2017 © All Rights Reserved</p>
+                    <p><a href="/">YourBestBuy.in.ua</a></p>
+                    <p>Политика конфиденциальности</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="footer__call">
+                    <div class="col-sm-3">
+                        <a href="#" data-toggle="modal" data-target=".modal-order" class="img-call">
+                            <img src="img/icon-call.png" alt="icon-call">
+                        </a>
                     </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="advantage__item">
-                        <div class="advantage__img">
-                            <img src="img/icon-delivery.png" alt="delivery">
-                        </div>
-                        <div class="advantage__title">
-                            Доставка
-                        </div>
-                        <div class="advantage__text">
-                            Мы отправим Ваш iRing в день<br/>
-                            заказа. В среднем, срок доставки<br/>
-                            занимает 2-3 робочих дней.<br/>
-                            Стоимость от 30 гривен
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="advantage__item">
-                        <div class="advantage__img">
-                            <img src="img/icon-warranty.png" alt="warranty">
-                        </div>
-                        <div class="advantage__title">
-                            Гарантии
-                        </div>
-                        <div class="advantage__text">
-                            Перед отправкой товары проходят<br/>
-                            100% проверку. Вы вправе отказаться<br/>
-                            от покупки в течении 14 дней при<br/>
-                            обнаружении брака и дефектов
-                        </div>
+                    <div class="col-sm-9">
+                        <p>
+                            +38 (096) 819-43-25
+                        </p>
+                        <p>
+                            +38 (067) 707-04-94
+                        </p>
+                        <a href="#" data-toggle="modal" data-target=".modal-order" class="call-me">Позвоните мне прямо сейчас</a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <section class="block6 bg-block" id="sale">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="sale__descr">
-                        <div class="sale__text">
-                            <h2 class="red-text">Только сегодня скидка -73%!</h2>
-                            <h2>До окончания акции осталось:</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-5">
-                    <div class="sale__title">
-                        <span class="red-text">iRing ПО АКЦИИ</span>
-                        <span>Осталось: 78 шт.</span>
-                    </div>
-                    <div class="sale__timer">
-                        <script src="http://megatimer.ru/s/2f4dc89389cafbce01cb3ed98c52a761.js"></script>
-                    </div>
-                    <div class="sale__product">
-                        <img src="img/iring-gorisontal.png" alt="iring">
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="main-form">
-                        <div class="form__title">
-                            <h2>
-                                Закажите прямо сейчас
-                            </h2>
-                            <p>
-                                и получите скидку на следующий заказ
-                            </p>
-                        </div>
-                        <form class="form-horizontal" role="form" method="post">
-                            <div class="form-group">
-                                <div class="col-xs-12">
-                                    <input type="text" name="name" class="form-control"  placeholder="Введите ваше имя">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <div class="col-xs-12">
-                                    <input type="tel" name="phone" class="form-control" placeholder="Введите ваш телефон">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <div class="col-xs-12">
-                                    <input type="email" name="email" class="form-control" placeholder="Введите ваш e-mail">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <div class="col-xs-12">
-                                    <input type="submit" class="btn btn-red btn-default" value="Заказать сейчас"/>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="block7" id="review">
-        <div class="container">
-            <div class="row">
-                <div class="title-block">
-                    <h2>
-                        Отзывы покупателей
-                    </h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="review">
-                        <div class="review__like">
-                            <img src="img/icon-like.png" alt="icon-like">
-                        </div>
-                        <div class="review__img">
-                            <img src="img/user-review.png" alt="user-review">
-                        </div>
-                        <div class="review__user">
-                            <div class="user__name">
-                                Петр Иванович
-                            </div>
-                            <div class="user__product">
-                                iRing Black |комплект iRing + ihook| ЧЕРНЫЙ
-                            </div>
-                        </div>
-                        <div class="review__descr">
-                            Укрепление и развитие структуры играет
-                            важную роль в формировании форм развития.
-                            Равным образом рамки и место обучения
-                            кадров играет важную роль в формировании
-                            соответствующий условий активизации.
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="review">
-                        <div class="review__like">
-                            <img src="img/icon-like.png" alt="icon-like">
-                        </div>
-                        <div class="review__img">
-                            <img src="img/user-review.png" alt="user-review">
-                        </div>
-                        <div class="review__user">
-                            <div class="user__name">
-                                Петр Иванович
-                            </div>
-                            <div class="user__product">
-                                iRing Black |комплект iRing + ihook| ЧЕРНЫЙ
-                            </div>
-                        </div>
-                        <div class="review__descr">
-                            Укрепление и развитие структуры играет
-                            важную роль в формировании форм развития.
-                            Равным образом рамки и место обучения
-                            кадров играет важную роль в формировании
-                            соответствующий условий активизации.
-                            Укрепление и развитие структуры играет
-                            важную роль в формировании форм развития.
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="review">
-                        <div class="review__like">
-                            <img src="img/icon-like.png" alt="icon-like">
-                        </div>
-                        <div class="review__img">
-                            <img src="img/user-review.png" alt="user-review">
-                        </div>
-                        <div class="review__user">
-                            <div class="user__name">
-                                Петр Иванович
-                            </div>
-                            <div class="user__product">
-                                iRing Black |комплект iRing + ihook| ЧЕРНЫЙ
-                            </div>
-                        </div>
-                        <div class="review__descr">
-                            Укрепление и развитие структуры играет
-                            важную роль в формировании форм развития.
-                            Равным образом рамки и место обучения
-                            кадров играет важную роль в формировании
-                            соответствующий условий активизации.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="footer__menu">
-                        <a href="#warranty">
-                            Наши гарантии
-                        </a>
-                        <a href="#delivery">
-                            Доставка и оплата
-                        </a>
-                        <a href="#catalog">
-                            Каталог товаров
-                        </a>
-                        <a href="#sale">
-                            Акция
-                        </a>
-                        <a href="#review">
-                            Отзывы
-                        </a>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="footer__copyright">
-                        <p>2016-2017 © All Rights Reserved</p>
-                        <p><a href="/">iring4you.com.ua</a></p>
-                        <p>Политика конфиденциальности</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="footer__call">
-                        <div class="col-sm-3">
-                            <a href="#" data-toggle="modal" data-target=".modal-order" class="img-call">
-                                <img src="img/icon-call.png" alt="icon-call">
-                            </a>
-                        </div>
-                        <div class="col-sm-9">
-                            <p>
-                                +38 (096) 819-43-25
-                            </p>
-                            <a href="#" data-toggle="modal" data-target=".modal-order" class="call-me">Позвоните мне прямо сейчас</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <script src="js/all-min.js"></script>
+    </div>
+</section>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="js/common.js"></script>
 </body>
 </html>

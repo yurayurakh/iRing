@@ -114,10 +114,18 @@
 }
 .block4 {
   .main-title {
-    span:last-child {
-      margin-left: 30px;
-      color: #ee1b1b;
-      font-size: 50px;
+    h2:first-child {
+      font-family: $main_font_familyBold;
+      margin-top: 0;
+      font-size: 100px;
+      span {
+        color: $green_color;
+      }
+      span:last-child {
+        margin-left: 30px;
+        color: #ee1b1b;
+        font-size: 50px;
+      }
     }
     h2 {
       margin-top: 20px;
@@ -146,7 +154,7 @@
       }
       &__descr_ihook, &__descr {
         line-height: 24px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
       }
       .price {
         color: $red_color;
@@ -216,17 +224,6 @@
     position: relative;
     padding: 20px;
     box-shadow: 3px 3px 15px rgba(0,0,0,.3);
-    &__like {
-      position: absolute;
-      left: 50px;
-      top: -5px;
-      box-shadow: 3px 3px 15px rgba(24, 192, 70,.5);
-    }
-    &__img {
-      position: absolute;
-      left: 80px;
-      top: -40px;
-    }
     &__user {
       text-align: right;
       margin-bottom: 10px;
